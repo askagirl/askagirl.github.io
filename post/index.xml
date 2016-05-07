@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Fritz&#39;s Space</title>
+    <link>https://askagirl.github.io/post/</link>
+    <description>Recent content in Posts on Fritz&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 07 May 2016 13:47:18 +0900</lastBuildDate>
+    <atom:link href="https://askagirl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>direnv</title>
+      <link>https://askagirl.github.io/post/environment/direnv/</link>
+      <pubDate>Sat, 07 May 2016 13:47:18 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/environment/direnv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://direnv.net/&#34;&gt;homepage&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>go lang</title>
+      <link>https://askagirl.github.io/post/go-lang/go-lang/</link>
+      <pubDate>Sat, 30 Apr 2016 14:18:00 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/go-lang/go-lang/</guid>
+      <description>
+
+&lt;h2 id=&#34;install-direnv:6ba26ab9849c70327405ec90043acfe6&#34;&gt;install direnv&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://askagirl.github.io/post/environment/direnv/&#34;&gt;direnv&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;install-go-version-manager:6ba26ab9849c70327405ec90043acfe6&#34;&gt;install go version manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/MakeNowJust/govm&#34;&gt;govm&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ curl -L git.io/govm | python - setup
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;environment-variables:6ba26ab9849c70327405ec90043acfe6&#34;&gt;Environment Variables&lt;/h3&gt;
+
+&lt;p&gt;Add $PATH setting your shell config file (.bashrc or .zshrc).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export GOVM_ROOT=$HOME/.govm
+export PATH=$GOVM_ROOT/versions/current/bin:$PATH
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;configuration:6ba26ab9849c70327405ec90043acfe6&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://golang.org/doc/code.html&#34;&gt;go code&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export GOROOT=...
+export GOPATH=...
+export GOBIN=$GOPATH/bin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;examples:6ba26ab9849c70327405ec90043acfe6&#34;&gt;examples&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gobyexample.com&#34;&gt;go by example&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;reference-projects:6ba26ab9849c70327405ec90043acfe6&#34;&gt;reference projects&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://caddyserver.com&#34;&gt;caddy server&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://askagirl.github.io/post/hugo/</link>
+      <pubDate>Thu, 28 Apr 2016 13:48:28 +0000</pubDate>
+      
+      <guid>https://askagirl.github.io/post/hugo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ruby on rails</title>
+      <link>https://askagirl.github.io/post/ruby-on-rails/</link>
+      <pubDate>Thu, 28 Apr 2016 13:36:37 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/ruby-on-rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://askagirl.github.io/post/nginx/</link>
+      <pubDate>Thu, 28 Apr 2016 13:36:32 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>https://askagirl.github.io/post/monitoring/</link>
+      <pubDate>Thu, 28 Apr 2016 13:36:18 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amazon web service</title>
+      <link>https://askagirl.github.io/post/amazon-web-service/</link>
+      <pubDate>Thu, 28 Apr 2016 13:32:44 +0900</pubDate>
+      
+      <guid>https://askagirl.github.io/post/amazon-web-service/</guid>
+      <description>
+
+&lt;h1 id=&#34;amazone-web-service:65fa4d50399764f37f11fdeee5d5ba86&#34;&gt;Amazone Web Service&lt;/h1&gt;
+
+&lt;p&gt;url: &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;aws&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://askagirl.github.io/post/javascript/npm/</link>
+      <pubDate>Wed, 27 Apr 2016 11:07:40 +0000</pubDate>
+      
+      <guid>https://askagirl.github.io/post/javascript/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netdata</title>
+      <link>https://askagirl.github.io/post/monitoring/netdata/</link>
+      <pubDate>Thu, 21 Apr 2016 14:21:21 +0000</pubDate>
+      
+      <guid>https://askagirl.github.io/post/monitoring/netdata/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/firehol/netdata/wiki/Installation&#34;&gt;https://github.com/firehol/netdata/wiki/Installation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
