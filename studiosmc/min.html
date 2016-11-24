@@ -19,6 +19,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+    <!-- light gallery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/lightgallery/1.3.6/css/lightgallery.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/lightgallery/1.3.6/js/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lg-fullscreen/1.0.1/lg-fullscreen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lg-thumbnail/1.0.1/lg-thumbnail.min.js"></script>
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,6 +43,9 @@
             max-width: 1362px;
             min-height: 883px;
         }
+        .lg-item {
+            left: 0px !important;
+        }
     </style>
 </head>
 
@@ -45,7 +55,7 @@
             <div class="cover-container">
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">콩김슬기</h3>
+                        <h3 class="masthead-brand">유틀러</h3>
                         <nav>
                             <ul class="nav masthead-nav">
                                 <li class="active"><a href="#">Home</a></li>
@@ -57,12 +67,14 @@
                 </div>
 
                 <div id="boxk" class="inner cover">
-                    <h1 class="cover-heading">축하합니다!</h1>
-                    <p class="lead">이 선물을 선택하신 당신께 '요~~오~~~옥'을 드립니다!!!!</p>
+                    <h1 class="cover-heading">와우!</h1>
+                    <p class="lead">파쉬 핫팩으로 병신년 겨울을 ‘조져!’ 버리고
+                    <br />
+                    클림트 키스 퍼즐을 맞추면서 뜨거운 연애를 하시길.</p>
                     <p class="lead">
-                        <a href="http://www.president.go.kr/" class="btn btn-lg btn-default">받으시겠습니까?</a>
+                        <a href="http://www.president.go.kr/" id="open-gallery" class="btn btn-lg btn-default">받으시겠습니까?</a>
                     </p>
-                    <h1>땡큐~</h1>
+                    <h1>Be peace with you.</h1>
                 </div>
 
                 <div class="mastfoot">
@@ -73,6 +85,19 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+    $('#open-gallery').on('click', function(evt) {
+        evt.preventDefault();
+        $(this).lightGallery({
+            dynamic: true,
+            dynamicEl: [{
+                "src": 'images/min.jpg',
+                "thumb": 'images/thumbs/min.jpg',
+                'subHtml': '<h1>Good Job</h1>'
+            }]
+        })
+    });
+    </script>
 </body>
 
 </html>
